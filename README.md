@@ -1,33 +1,33 @@
 # twitter-clone
-Getting Started
+Getting Started <br/>
 These instructions will get you a copy of the project up and running on your local machine.
 
-Prerequisites
+<b>Prerequisites</b><br/>
 Make sure you have a running MongoDB instance.
 
-Configuration
-Create a file in server/.env and update the values 
+<b>Configuration</b><br/>
+Create a file in server/.env and update the values <br/>
 
-PORT=3001
-MONGO_URI=mongodb+srv://akashgvps:Aa@933570@twitterclone.y8jsw.mongodb.net/twitterclone?retryWrites=true&w=majority
-JWT_SECRET=jwt-secret
-JWT_EXPIRES=3600
+PORT=3001<br/>
+MONGO_URI=mongodb+srv://akashgvps:Aa@933570@twitterclone.y8jsw.mongodb.net/twitterclone?retryWrites=true&w=majority<br/>
+JWT_SECRET=jwt-secret<br/>
+JWT_EXPIRES=3600<br/>
 
-Installing
+<b>Installing</b><br/>
 Install server dependencies
 
-$ cd server
-$ npm install
-Install client dependencies
+$ cd server<br/>
+$ npm install<br/>
+<b>Install client dependencies</b><br/>
 
-$ cd client
-$ npm install
-Start the server in development mode
-$ cd server
-$ npm run dev
-If everything was successful, you should see the messages being displayed in the terminal, telling that the server has successfully connected to a MongoDB and runs on a given port.
+$ cd client<br/>
+$ npm install<br/>
+<b>Start the server in development mode</b><br/>
+<br/>$ cd server<br/>
+$ npm run dev<br/>
+<br/>If everything was successful, you should see the messages being displayed in the terminal, telling that the server has successfully connected to a MongoDB and runs on a given port.<br/>
 
-Start the client
-$ cd client
-$ npm start
-Now, the app should be running on http://localhost:3000.
+<b>Start the client</b><br/>
+$ cd client<br/>
+$ npm start<br/>
+Now, the app should be running on http://localhost:3000.<br/>
